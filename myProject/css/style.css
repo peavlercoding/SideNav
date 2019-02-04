@@ -1,0 +1,76 @@
+body {
+    background-color:black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color:rgba(0,0,0,25%);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#home {
+    padding-top:30px;
+}
+
+.list-item {
+  display: block;
+  color: white;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+.list-item.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.list-item:hover:not(.active) {
+  background-color: rgba(0,0,0,80%);
+    color: white;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navbar {
+    color:white;
+    text-align:center;
+    background-color:rgba(0,0,0,75%);
+    font-weight:bold;
+    font-size:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#container2 {
+    background: url('https://i.pinimg.com/originals/b9/68/b1/b968b1506d5c546e344158be6100587d.jpg') no-repeat 0 ;
+    min-height: 50%;
+    max-height: 100%;
+    float:center;
+    text-align:center;
+    padding-top:200px;
+    padding-bottom:185px;
+    font-size:70px;
+    font-family: 'Mrs Sheppards', cursive;
+}
+
+a {
+    color:rgba(255,255,255,50%);
+    text-decoration:none;
+}
+
+a:hover {
+    color:white;
+    font-weight:bold;
+}
+
+header {
+    color:white;
+}
